@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage ('SCM_Checkout') {
             steps {
-               git url: 'https://github.com/mannepallyvinod/Sample_Webapp.git' 
+               git url: 'https://github.com/mannepallyvinod/Multi_Branch.git' 
             }
         }
         stage ('Build') {
