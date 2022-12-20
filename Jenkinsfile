@@ -14,7 +14,7 @@ pipeline {
                bat "mvn install"
             }
         }
-        stage ("copy") {
+        stage ("Deploy") {
             steps {
                 bat "copy target\\Sample.war D:\\apache-tomcat-9.0.65\\webapps"
             }
